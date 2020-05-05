@@ -1,0 +1,13 @@
+$red:rgba(255,0,0,1);
+
+*{box-sizing:border-box ;}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.grid div {
+    border: 1px solid $red;
+}
