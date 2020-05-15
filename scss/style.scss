@@ -9,6 +9,7 @@ $weiss:rgba(255,255,255,1);
 $schwarz:rgba(0,0,0,1);
 
 $font-family: 'Fira Sans', sans-serif;
+$title-font-family: 'Roboto Slab', serif;
 $font-size:1rem; 
 $line-height:1.6rem; 
 $letterspacing: 0;
@@ -29,15 +30,15 @@ $h1-line-height:2.2rem;
 $h2-line-height:2rem;
 $h3-line-height:1.6rem;
 
-.bgdred {background:$rot}
-.bgdgelb {background:$gelb}
-.bgdgruen {background:$gruen}
-.bgdorange {background:$orange}
-.bgdtuerkis {background:$tuerkis}
-.bgdhgrau {background:$hgrau}
-.bgddgrau {background:$dgrau}
-.bgdweiss {background:$weiss}
-.bgdschwarz {background:$schwarz}
+.bgdred {background:$rot!important;}
+.bgdgelb {background:$gelb!important;}
+.bgdgruen {background:$gruen!important;}
+.bgdorange {background:$orange!important;}
+.bgdtuerkis {background:$tuerkis!important;}
+.bgdhgrau {background:$hgrau!important;}
+.bgddgrau {background:$dgrau!important;}
+.bgdweiss {background:$weiss!important;}
+.bgdschwarz {background:$schwarz!important;}
 
 *{box-sizing:border-box ;}
 
@@ -47,6 +48,30 @@ body {
   font-family: $font-family;
   font-size: $font-size;
   line-height: $line-height;
+  .card {
+    background-color:transparent;
+    margin-bottom: 15px;
+    border: none;
+    .card-title {
+      font-family: $title-font-family;
+      color: $weiss;
+    }
+  }
+  .slick-slider{
+    .slick-prev {
+      left:-4px;
+    }
+    .slick-next {
+      right:-4px;
+    }
+  }
+  a{
+    color: $hgrau;
+    &:hover{
+      color: $orange;
+    }
+  }
+
   .background {
     position: fixed;
     z-index: -1;
