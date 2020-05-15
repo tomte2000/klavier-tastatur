@@ -1,6 +1,10 @@
-$red:rgba(255,0,0,1);
+$rot:rgba(255,0,0,1);
+$gelb:rgba(214,216,25,1);
+$gruen:rgba(114,191,68,1);
+$orange:rgba(245,130,32,1);
+$tuerkis:rgba(0,186,190,1);
 $hgrau:rgba(163, 163, 163,.5);
-$dgrau:rgba(43,43,43,1);
+$dgrau:rgba(65,64,66,1);
 $weiss:rgba(255,255,255,1);
 $schwarz:rgba(0,0,0,1);
 
@@ -25,7 +29,11 @@ $h1-line-height:2.2rem;
 $h2-line-height:2rem;
 $h3-line-height:1.6rem;
 
-.bgdred {background:$red}
+.bgdred {background:$rot}
+.bgdgelb {background:$gelb}
+.bgdgruen {background:$gruen}
+.bgdorange {background:$orange}
+.bgdtuerkis {background:$tuerkis}
 .bgdhgrau {background:$hgrau}
 .bgddgrau {background:$dgrau}
 .bgdweiss {background:$weiss}
@@ -35,24 +43,10 @@ $h3-line-height:1.6rem;
 
 body {
   margin: 0;
-  overflow: hidden;
+  overflow:scroll;
   font-family: $font-family;
   font-size: $font-size;
   line-height: $line-height;
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 15px;
-    margin: 0 auto;
-    padding: 15px;
-    background:$weiss;
-    width: 100%;
-    div {
-      border: 1px solid $red;
-      margin: 15px 0;
-    }
-  }
-
   .background {
     position: fixed;
     z-index: -1;
@@ -72,7 +66,7 @@ body {
       animation-duration: $animationDuration;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
-      $colors: ($hgrau);
+      $colors: ($hgrau,$rot,$gelb,$gruen,$orange,$tuerkis);
       @for $i from 1 through $amount {
         &:nth-child(#{$i}) {
           color: nth($colors, random(length($colors)));
