@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Titel der Seite | Name der Website</title>
+		<title>Kontakt | Name der Website</title>
 		<meta name="author" content="Friedhelm marcath">
 		<meta name="date" content="2020-05-15">
 		<meta name="description" content="Dieser Beschreibungstext soll mit in der Suchergebnisliste erscheinen.">
@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="slick/slick.css" />
 		<link rel="stylesheet" href="slick/slick-theme.css" />
-		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="stylesheet" href="css/.css" />
 		<link rel="stylesheet" href="css/style.min.css" />
 
 	</head>
@@ -52,21 +52,20 @@
 			<span></span>
 		</div>
 		<header class="container">
-			<img src="img/kc-logo-weiss.svg" alt="logo">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-sm-12 col-md-3">
+				<a href="index.php"><img class="ml-auto" src="img/kc-logo-weiss.svg" alt="logo"></a>
 					<div class="card">
 						<div class="card-body bgdgelb">
-							<h1 class="card-title">Titel der Seite | Name der Website</h1>
+							<h1 class="card-title">Kontakt | Name der Website</h1>
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</header>
 		<div class="container">
 			<div class="row">
-				<div class="col-9">
+				<div class="col-sm-12 col-md-9">
 					<div class="card">
 						<div class="card-body bgdgelb">
 							<h1 class="card-title">Erste Kachel</h1>
@@ -74,16 +73,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-sm-12 col-md-3">
 					<div class="card">
 						<img src="img/orangerkreis.svg">
 						<div class="card-body bgdgruen">
 							<h5 class="card-title">Tanz-Tee</h5>
+							<?php echo('hallo ich bin die kontakt-seite');?>
 						</div>
 					</div>
 					
 				</div>
-				<div class="col-3">
+				<div class="col-sm-12 col-md-3">
 					<div class="card ">
 						<div class="card-body bgdorange">
 							<h5 class="card-title">Literatur im Liegen</h5>
@@ -92,7 +92,7 @@
 					</div>
 					
 				</div>
-				<div class="col-4">
+				<div class="col-sm-12 col-md-4">
 					<div class="card ">
 						<div class="card-body bgdtuerkis">
 						<h5 class="card-title">Kaminabend</h5>
@@ -100,8 +100,8 @@
 					</div>
 					
 				</div>
-				<div class="col-5">
-					<div class="card ">
+				<div class="col-sm-12 col-md-5">
+					<div class="card">
 						<div class="card-body bgdorange">
 						<h5 class="card-title">Auftankeabende für Pflegende</h5>
 					</div>
@@ -110,27 +110,14 @@
 
 			</div>
 			<div class="row ">
-
-				<div class="col-12">
-					<div class="card">
-						<div class="slides">
-							<img src="img/20190709_103135.jpg" />
-							<img src="img/IMG-20190705-WA0002.jpeg" />
-							<img src="img/IMG_20200508_110204.jpg" />
-							<img src="img/IMG_20200508_110412.jpg" />
-							<img src="img/20190602_110736.jpg" />
-							<img src="img/20190625_160255.jpg" />
-						</div>
-					</div>
-				</div>
-				<div class="col-4">
+				<div class="col-sm-12 col-md-4">
 					<div class="card ">
 						<div class="card-body bgdgruen">
 							<h5 class="card-title">hier steht was</h5>
 						</div>
 					</div>
 				</div>
-				<div class="col-8">
+				<div class="col-sm-12 col-md-8">
 					<div class="card ">
 						<div class="card-body bgdgelb">
 							<h5 class="card-title">hier auch</h5>
@@ -139,9 +126,8 @@
 				</div>
 			</div>
 		</div>
-
 		<footer class="container">
-			<a href="kontakt.html">Kontakt</a>
+			<a href="kontakt.php">Kontakt</a>
 			<p>© 2020 by selfFRIDIE</p>
 		 </footer>
 	</body>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Startseite | Name der Website</title>
+		<meta name="author" content="Friedhelm marcath">
+		<meta name="date" content="2020-05-15">
+		<meta name="description" content="Dieser Beschreibungstext soll mit in der Suchergebnisliste erscheinen.">
+		<meta name="theme-color" content="#ff0000">
+		<meta name="keywords" content="Donau, Schifffahrt, Schiffe">
+
+		<link rel="icon" sizes="192x192" href="nice-highres.png">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="slick/slick.css" />
+		<link rel="stylesheet" href="slick/slick-theme.css" />
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="stylesheet" href="css/style.min.css" />
+
+	</head>
+
+	<body>
+		<div class="background">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<header class="container">
+			<img src="img/kc-logo-weiss.svg" alt="logo">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<div class="card">
+						<div class="card-body bgdgelb">
+							<h1 class="card-title">Startseite | Name der Website</h1>
+							
+							<?php echo('hallo ich bin die kontakt-seite');?>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-9">
+					<div class="card">
+						<div class="card-body bgdgelb">
+							<h1 class="card-title">Erste Kachel</h1>
+							<p class="card-text">Ich bin bei <a href="https://tomte2000.github.io/klavier-tastatur/" target="_blank">GitHub Pages.</a> </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-3">
+					<div class="card">
+						<img src="img/orangerkreis.svg">
+						<div class="card-body bgdgruen">
+							<h5 class="card-title">Tanz-Tee</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12">
+					<div class="card">
+						<div class="slides">
+							<img src="img/20190709_103135.jpg" />
+							<img src="img/IMG-20190705-WA0002.jpeg" />
+							<img src="img/IMG_20200508_110204.jpg" />
+							<img src="img/IMG_20200508_110412.jpg" />
+							<img src="img/20190602_110736.jpg" />
+							<img src="img/20190625_160255.jpg" />
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-3">
+					<div class="card ">
+						<div class="card-body bgdorange">
+							<h5 class="card-title">Literatur im Liegen</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<div class="card ">
+						<div class="card-body bgdtuerkis">
+							<h5 class="card-title">Kaminabend</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-5">
+					<div class="card">
+						<div class="card-body bgdorange">
+						<h5 class="card-title">Auftankeabende für Pflegende</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="container">
+			<a href="kontakt.php">Kontakt</a>
+			<p>© 2020 by selfFRIDIE</p>
+		 </footer>
+	</body>
+</html>
